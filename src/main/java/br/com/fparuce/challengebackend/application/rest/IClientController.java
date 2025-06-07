@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
-public interface ClientController {
+public interface IClientController {
 
     ResponseEntity<ClientResponse> createClient(@Valid @RequestBody CreateClientRequest request);
 

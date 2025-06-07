@@ -1,7 +1,7 @@
 package br.com.fparuce.challengebackend.application.response;
 
 public record ClientResponse(
-        String id,
+        Long id,
         String name,
         String document,
         String email,
